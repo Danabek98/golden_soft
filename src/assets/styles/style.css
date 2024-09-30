@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'SFPro';
+    src: url('../fonts/SFProText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFPro';
+    src: url('../fonts/SFProText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+body{
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---Header--- */
+.head{
+    display: flex;
+    justify-content: space-around;
+    height: 82px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    background-color: bisque;
+    font-family: 'SFPro', sans-serif;
+    font-size: 16pt;
+}
+.headLogo{
+    width: 50px;
+    height: 42px;
+}
+.headTitles{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.headRightArea{
+    display: flex;
+    align-items: center;
+}
+.headContactNumber{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    font-size: 24px; /* Размер иконки */
+    color: #333;     /* Цвет иконки */
+    margin-left: 20px; /* Отступы между иконками и текстом */
+}

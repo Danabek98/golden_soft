@@ -11,13 +11,63 @@
     font-weight: bold;
     font-style: normal;
 }
-
-
 body{
-    background-color: blueviolet;
     margin: 0;
     padding: 0;
+    background-color: rgb(201, 199, 199);
 }
+body>div{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: white;
+}
+b{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+
+.centered{
+    margin: auto;
+}
+.txtCenter{
+    text-align: center;
+}
+.flexSpBw{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+.titleTxt{
+    font-size: 44px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    font-family: 'SFPro', sans-serif;
+
+}
+.descriptionTxt{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.btn{
+    width: 220px;
+    height: 50px;
+    background-color: #4295E4;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.divPadding{
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+
 
 /* ---Header--- */
 .head{
@@ -26,7 +76,7 @@ body{
     height: 82px;
     align-items: center;
     border-bottom: 1px solid gray;
-    background-color: bisque;
+    background-color: #FFFFFF;
     font-family: 'SFPro', sans-serif;
     font-size: 16pt;
 }
@@ -51,4 +101,246 @@ body{
     font-size: 24px; /* Размер иконки */
     color: #333;     /* Цвет иконки */
     margin-left: 20px; /* Отступы между иконками и текстом */
+}
+
+/* ---cover--- */
+.cover{
+    position: relative;
+    display: flex;
+    width: 1440px;
+    height: 774px;
+    font-family: 'SFPro', sans-serif;
+}
+.cover > .product{
+    width: 1240px;
+    height: 500px;
+}
+.coverRight{
+    width: 604px;
+    height: 433px;
+    display: flex;
+    margin-left: auto;
+}
+.productChange{
+    width: 180px;
+    height: 32px;
+    font-size: 15pt;
+    color: #c6e1fa;
+    position: absolute;
+    bottom: 48px;
+    left: 0;
+    right: 0;
+    align-items: center;
+    text-align: center;
+    user-select: none;
+}
+.activeCircle{
+    font-size: 24pt;
+    color: #4295E4;
+}
+.arrow{
+    color: black;
+    font-size: 27pt;
+}
+
+.whyUsArea{
+    width: 1440px;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.numbers{
+    height: 160px;
+    display: flex;
+    background-color: #F2F8FF;
+    margin-bottom: 95px;
+}
+.numbers>div{
+    width: 826px;
+    height: 80px;
+    text-align: center;
+}
+
+.whyUs{
+    margin-top: auto;
+}
+.whyUs>div{
+    width: 31%;
+    height: 226px;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    font-size: 20px;
+}
+
+.Categories{
+    width: 1440px;
+    height: 1206px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.content{
+    width: 1240px;
+    height: 980px;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.Categories .box{
+    width: 600px;
+    height: 470px;
+    display: flex;
+    background-color: #FAFAFA;
+}
+.productImg{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.productImg>img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.productName{
+    width: 40%;
+    margin: auto 0 0 0;
+    padding: 0 0 20px 20px;
+    box-sizing: border-box;
+    font-size: 18pt;
+}
+.productName>button{
+    width: 80%;
+    height: 50px;
+    font-size: 12pt;
+}
+
+.FamousProducts{
+    width: 1440px;
+    height: 1428px;
+    margin-top: 100px;
+}
+.FamousProducts>.famous{
+    width: 1242px;
+    height: 552px;
+}
+.productList{
+    width: 1240px;
+    height: 426px;
+    margin: 64px 0 94px 0;
+}
+.productList > .box{
+    width: 288px;
+    height: 426px;
+    background-color: #F7F7F7;
+}
+.cardTop{
+    width: 288px;
+    height: 320px;
+}
+
+.cardPadding{
+    padding: 12px 12px 0 12px;
+    box-sizing: border-box;
+}
+.cardIndicator{
+    width: 20px;
+    height: 20px;
+    font-size: 14pt;
+}
+.inStock{
+    font-size: 14px;
+    align-items: center;
+}
+.sale{
+    border: 1px solid black;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.giftInfo{
+    width: 100px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.cardBottom{
+    width: 288px;
+    height: 106px;
+    border: 1px solid #F7F7F7;
+    background-color: white;
+    box-sizing: border-box;
+}
+.cardBottom>p{
+    margin: 0;
+}
+.weCall{
+    width: 1440px;
+    height: 332px;
+    margin-top: 96px;
+    background-color: #F2F8FF;
+    display: flex;
+
+}
+.weCall>.box{
+    width: 748px;
+    height: 212px;
+    text-align: center;
+}
+input[type=text]{
+    width: 240px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #F2F8FF;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.Footer{
+    width: 1440px;
+    height: 380px;
+    background-color: #0D2436;
+    border-bottom: 1px solid rgb(64, 63, 63);
+}
+.Footer>.box{
+    width: fit-content;
+    height: 277px;
+    margin-top: 55px;
+    flex-direction: column;
+}
+
+#footerLogo{
+    width: 105px;
+}
+#socialImg{
+    width: 126px;
+}
+
+.FooterTitle{
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'SFPro', sans-serif;
+    color: white;
+    margin-bottom: 16px;
+}
+.FooterText{
+    font-size: 18px;
+    margin: 0;
+    font-family: 'SFPro', sans-serif;
+    color: white;
+    margin-bottom: 13px;
+    line-height: 1.5;
+}
+.ps{
+    height: 68px;
+    width: 1440px;
+    background-color: #0D2436;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
 }
